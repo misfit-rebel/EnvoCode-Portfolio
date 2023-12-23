@@ -1,0 +1,105 @@
+@font-face {
+  font-family: montserrat;
+  src: url("../src/assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+body {
+  margin: 0;
+}
+
+/*Global Classes*/
+.h1-font {
+  font-family: montserrat;
+  font-weight: 800;
+  margin: 0;
+  font-size: 60px;
+  color: #fff;
+}
+
+header-font{
+  font-family: montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  color: #011945;
+}
+
+.btn{
+  width:244px;
+  height: 45px;
+  color: #fff;
+  font-family: montserrat;
+  font-weight: 500;
+  background-color: #023697;
+}
+
+/*Hero Section Starts*/
+.hero {
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(95.95deg, #023697 -2.57%, #011945 112.56%);
+}
+
+header {
+  vertical-align: middle;
+}
+
+.hero-span {
+  font-family: montserrat;
+  font-size: 35px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.hero-btn {
+  width: 303px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  font-family: montserrat;
+  font-weight: 600;
+}
+
+.icons-container {
+  padding: 15px;  
+  background: linear-gradient(0deg, #41557a, #41557a),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  opacity:0.5;
+  border: 1px solid #41557a;
+  border-radius: 10px;
+}
+
+.services-container{
+    border: 1px solid #BBD3FF;
+    border-radius: 16px;
+    padding:10px
+}
+
+.sector-cards{
+  border: 1px solid #00000030;
+  border-radius: 16px;
+  box-shadow: 0px 0px 4px 0px ;
+  padding:15px;
+  max-width:400px;
+  background: linear-gradient(95.95deg, #023697 -2.57%, #011945 112.56%);
+;
+}
+
+.sector-cards h5{
+  font-family: montserrat;
+  font-weight: 700;
+  color: #fff;
+}
+
+.sector-cards p{
+  font-family: montserrat;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+}
+@media screen and (max-width:600px) {
+    .icons-container{
+        margin-bottom:60%
+    }
+}
